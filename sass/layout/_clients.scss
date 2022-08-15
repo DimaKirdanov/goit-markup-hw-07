@@ -8,18 +8,14 @@
 }
 
 .regular-clients-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %justify;
 
   margin-left: auto;
   gap: 30px;
 }
 
 .regular-clients-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ @extend %justify;
   min-width: 170px;
   min-height: 92px;
   border: 1px solid #afb1b8;
